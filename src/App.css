@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #fcfcfc !important;
+  /* background-color: white !important; */
+  /* color: #555!important; */
+  color: rgba(0, 0, 0, 0.87)!important;
 }
 
 .App-logo {
@@ -32,7 +36,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#navigation {
+  margin-bottom: 2rem;
+}
+
+#navigation button {
+  margin-right: 1rem;
+}
+
+#slide {
+  border: 1px solid #eee;
+  padding: 1rem;
+  min-height: 300px;
+}
+
+button {
+  min-width: 80px;
 }
